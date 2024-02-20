@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+h1, h2 , h3, h4, h5, h6, p, main, img,div{
+    overflow-x: visible;
+}
+body {
+    font-family: "Bebas Neue", sans-serif;
+    background-color: #1C1A24;
+   
+
+}
+h1{
+    margin: 0;
+    color: #F9F9FB;
+    text-align: center;
+}
+h2{
+    margin: 0;
+    color: #F9F9FB;
+}
+
+
+
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+#foto{
+    display: flex;
+    justify-content: center;
+    margin-top: -17vh;
+}
+#retangulo-titulo {
+    text-align: center;
+    width: 100%; 
+    height: 40vh; 
+    background-color: rgba(0, 255, 255, 0.963);
+}   
+#gif1{
+    float: right;
+}
+#gif2{
+    float: left;
+}
+#titulo{
+        font-size: 15vh;
+        text-shadow: 2px 2px 2px  black;
+}
+#subtitulo{
+    font-size: 7vh;
+    margin-top: -3vh;;
+    text-shadow: 2px 2px 2px  black;
+}
+#Redes{   
+        display: flex;
+        justify-content: center;
+        font-size: 10vh;
+        color: #F9F9FB;
+        gap: 3vh;
+
+}
+#email{
+    cursor: pointer;
+    margin-top: 1vh;
+}
+#email a,#linkedin a,#github a{
+    color: #F9F9FB;
+    text-decoration: none;
+    
+}
+#email a:hover,#linkedin a:hover,#github a:hover{
+    color: rgba(0, 255, 255, 0.963);
+    transition: 0.7s;
+    text-decoration: none;
+    
+}
+#email:hover{
+    color: rgba(0, 255, 255, 0.963);
+    transition: 0.7s;
+    text-decoration: none;
+}
+
+
+
+
+
+
+#sobre { text-align: center;
+        
+    
+}
+#Sobret {
+    font-size: 10vh;
+}
+#textsob {
+    font-size: 4vh;
+    display: inline-block;
+    max-width: 90vh;
+    text-align: left;
+    color: #ced4da;
+    padding-top: 5vh;
+}
+.btn{
+    --bs-btn-padding-x: 1.14rem;
+    background-color: rgba(0, 255, 255, 0.963);
+    
+}
+.btn:hover{
+    background-color: #1C1A24;
+    transition: 0.7s;
+}
+#projetosT{
+    font-size: 10vh;
+    padding-top: 10vh;
+}
+#projeto1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10vh;
+    padding-top: 10vh;
+}
+
+#certiT{
+    font-size: 10vh;
+    padding-top: 15vh;
+    text-align: center;
+}
+#certi1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10vh;
+    padding-top: 10vh;
+    margin-right: 15vh;
+}
+
+#habT{
+    font-size: 10vh;
+    padding-top: 15vh;
+}
+
+#Habilidade1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 8vh;
+    padding-top: 10vh;
+
+}
+.card-body{
+    background-color: #F2F2F2;
+}
+footer{
+    display: inline-flex;
+    -webkit-box-align: left;
+    align-items: center;
+    color: #F9F9FB;
+    margin-top: 2vh;
+    margin-left: 10vh;
+    max-width: 100%;
+}
+#textsfooter{
+    
+    margin-top: 4vh;
+    margin-left: 3vh;
+    display: block;
+    text-align: left;
+}
+#divisao{
+    text-align: center;
+    width: 100%; 
+    height: 0.5vh; 
+    background-color: rgba(0, 255, 255, 0.963);
+    margin-top: 20vh;
+}
+#footersub{
+    color: #ced4da;
+}
+@media screen and (max-width: 912px) {
+    #titulo{
+        padding-top: 35vh;
+    }
+    #Redes{
+        padding-top: 30vh;
+    }
+    #projeto1{
+        scale: 70%;
+    }
+    #certi1{
+        scale: 70%;
+         margin-right: 5vh;
+    }
+    #Habilidade1{
+        scale: 70%;
+    }
+    #gif1{
+        float: none;
+        justify-content: center;
+    }
+    #gif2{
+        float: none;
+        justify-content: center;
+        margin-left: 10vh;
+    }
+
+    #foto {
+        margin: -10;
+        
+        
+    }
+    
+}
+@media screen and (max-width: 637px){
+    #textsob{
+        scale: 80%;
+        text-align: center;
+    }
+    #Habilidade1{
+        scale: 80%;
+    }
+    .btn{
+        --bs-btn-padding-x:0.8rem
+    
+}
+#certificados, #Projetos{
+    overflow-x: hidden;
+}
+
+}
+@media screen and (max-width: 570px){
+   
+    .btn{
+        --bs-btn-padding-x:0.3rem
+    
+}
+#Habilidade1 img{
+    width: 120px;
+}
+#projeto1,#certi1{
+    gap: 1vh;
+    
+}
+
+}
+@media screen and (max-width: 525px){
+    #gif1{
+        scale: 80%;
+        margin-right: 40vh;
+    }
+    #gif2{
+        scale: 80%;
+        margin-left: 40vh;
+        margin-top: -35vh;
+    }
+    #titulo{
+        padding-top: 27vh;
+    }
+    #Redes{
+        margin-top: 15vh;
+    }
+    .card{
+        --bs-card-spacer-x:0.3rem
+    
+}
+
+#textsfooter{
+    scale: 80%;
+    
+}
+
+
+
+
+
+}
+@media screen and (max-width: 430px){
+    #gif1{
+        scale: 60%;
+        margin-right: 30vh;
+    }
+    #gif2{
+        scale: 60%;
+        margin-left: 30vh;
+        margin-top: -35vh;
+    }
+    #titulo{
+        padding-top: 27vh;
+    }
+    #Redes{
+        margin-top:20vh;
+    }
+    #projeto1, #certi1{
+        scale: 80%;
+        gap: 5vh;
+    }
+    #Habilidade1 img{
+        width: 80px;
+    }
+    #subtitulo{
+            margin-top: -10vh;
+    }
+
+       
+    
+}
+#textsfooter{
+    scale: 80%;
+}
+#Habilidade1{
+    scale: 70%;
+}
+h1{
+    scale: 80%
+}
+h2{
+    scale: 80%
+}
+
+@media screen and (max-width: 390px){
+    
+    
+    #Redes{
+        margin-top:10 vh;
+    }
+    h1{
+        overflow-x: visible;
+    }
+    .btn{
+        --bs-btn-padding-x:0.0.5rem
+    }   
+    #certi1{
+        gap:2vh;
+    }
+
+}
+
+@media screen and (max-width: 341px) {
+    #Habilidade1{
+        scale: 55%;
+    }
+    #gif1{
+        margin-right: 20vh;
+    }
+    #gif2{
+        scale: 60%;
+        margin-left: 20vh;
+        margin-top: -35vh;
+    }
+    #certi1{
+        gap:1vh;
+    }
+    .btn{
+        --bs-btn-padding-x:0.3rem
+    }   
+}
+
+
+
+
+
