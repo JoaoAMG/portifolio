@@ -138,7 +138,8 @@ h2{
     text-align: center;
     gap: 10vh;
     padding-top: 10vh;
-    margin-right: 15vh;
+    margin-right: 0vh;
+    scale:92%;
 }
 
 #habT{
@@ -195,7 +196,7 @@ footer{
     }
     #certi1{
         scale: 70%;
-         margin-right: 5vh;
+         margin-right: 0vh;
     }
     #Habilidade1{
         scale: 70%;
